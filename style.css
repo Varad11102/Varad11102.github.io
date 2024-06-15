@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef;
+}
+
+.container {
+    width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.profile {
+    font-style: italic;
+    color: #666;
+    margin-top: 10px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.left-column, .right-column {
+    width: 48%;
+}
+
+.left-column section, .right-column section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #0d6efd;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f8f9fa;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.details p, .details a, .links ul, .skills ul, .hobbies ul, .languages ul {
+    margin: 5px 0;
+}
+
+.skills ul li, .hobbies ul li, .languages ul li {
+    background: none;
+    padding: 0;
+}
+
+.links ul {
+    padding-left: 15px;
+}
+
+#download-btn {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+#download-btn:hover {
+    background-color: #0b5ed7;
+}
